@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #333333;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  height: 100vh;
+  /* margin: 0 50px; */
+}
+main {
+  width: 100%;
+  padding-bottom: 20px;
+}
+/* #db790f 
+  #333333*/
+a {
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style: none;
+}
+nav {
+  /* width: 100%; */
+  /* height: 170px; */
+  padding: 0 50px;
+  background-color: #f8ebebda;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 20px;
+}
+.logo {
+  height: auto;
+}
+.logo img {
+  height: 150px;
+  width: 150px;
+}
+.left {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.left li {
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 5px;
+  color: white;
+  background-color: #db790f;
+  border-radius: 25px;
+  border: 1px solid #db790f;
+  transition: 0.1s ease-in-out;
+}
+li:hover {
+  color: #db790f;
+  background-color: #f8f3ebda;
+}
+/* forum */
+main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 500px;
+  justify-content: space-evenly;
+  background-color: rgba(238, 235, 231, 0.664);
+  align-items: center;
+  height: 600px;
+}
+form h2 {
+  color: #db790f;
+  /* text-transform: uppercase; */
+  font-size: 30px;
+}
+form input {
+  padding: 15px 80px;
+  border: none;
+  font-size: 16px;
+  border-radius: 25px;
+  margin-top: 10px;
+  width: 90%;
+}
+.email p {
+  margin-left: 10px;
+}
+.password p {
+  margin-left: 10px;
+}
+form input:focus {
+  outline: none;
+}
+form .lgn {
+  padding: 20px 70px;
+  font-weight: 500;
+  background-color: #db790f;
+  color: white;
+  border-radius: 25px;
+  border: 1px solid #db790f;
+  transition: all 0.2s ease-in;
+}
+.lgn:hover {
+  color: #db790f;
+  background-color: #f8f3ebda;
+  border: 1px solid #db790f;
+}
+.icons {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form img {
+  margin: 40px;
+  height: 50px;
+}
+
+/* footer */
+footer {
+  border-top: 1px solid #000;
+  margin: 50px 0;
+  height: 100px;
+  display: flex;
+  /* background-color: #f8ebebda; */
+  justify-content: center;
+  align-items: center;
+}
